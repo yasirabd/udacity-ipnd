@@ -16,6 +16,13 @@ import urllib
 
 def read_text():
     # Your code here.
+    quotes = open("E:\Udacity\Intro to Programming\udacity-ipnd\stage_3\lesson_3.3_classes\c_profanity_editor\movie_quotes.txt")
+    contents_of_file = quotes.read()
+    print contents_of_file
+    quotes.close()
 
 def check_profanity(text):
     # Your code here.
+    return
+    
+read_text()
