@@ -10,25 +10,30 @@
 import turtle
 
 # Your code here.
+window = turtle.Screen()
+window.bgcolor("yellow")
 
-def draw_square():
-    window = turtle.Screen()
-    window.bgcolor("yellow")
+brow = turtle.Turtle()
+brow.shape("turtle")
+brow.speed(2)
 
-    brow = turtle.Turtle()
-    brow.shape("turtle")
-    brow.color("red")
-    brow.speed(2)
+def draw_square(length, color):
+    brow.color(color)
+    for counter in range(4):
+        brow.forward(length)
+        brow.right(90)
 
-    brow.forward(100)
-    brow.right(90)
-    brow.forward(100)
-    brow.right(90)
-    brow.forward(100)
-    brow.right(90)
-    brow.forward(100)
-    brow.right(90)
+def draw_circle(radius, color):
+    brow.color(color)
+    brow.circle(radius)
 
-    window.exitonclick()
+def draw_triangle(cor1, cor2, color):
+    brow.color(color)
+    brow.goto(cor1)
+    brow.goto(cor2)
+    brow.goto(0,0)
 
-draw_square()
+draw_square(100, "red")
+draw_circle(100, "green")
+draw_triangle((150,50), (-50, -150), "blue")
+# window.exitonclick()
