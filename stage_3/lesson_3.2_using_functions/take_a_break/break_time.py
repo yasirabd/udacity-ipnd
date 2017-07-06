@@ -5,9 +5,11 @@
 # once every two hours, a maximum of three times.
 
 # Use this space to describe your approach to the problem.
-#
-#
-#
-#
+# 1. Detect current time in PC as a start time
+# 2. Determine the range time for the break (2 hrs)
+# 3. Using loop to check range of current time and start time if equals range time (2 hrs)
+#       - If so, play music
 
+import webbrowser
 # Your code here.
+webbrowser.open("https://www.youtube.com/watch?v=vXQlYhLcQ2c")
