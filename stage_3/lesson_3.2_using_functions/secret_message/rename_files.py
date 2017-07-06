@@ -13,3 +13,13 @@
 #
 
 # Your code here.
+import os
+
+def rename_files():
+    # 1. get file names from the folder
+    file_list = os.listdir(r"E:\Udacity\Intro to Programming\udacity-ipnd\stage_3\lesson_3.2_using_functions\secret_message\prank")
+    print file_list
+
+    # 2. for each file, rename filenames
+
+rename_files()
