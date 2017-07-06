@@ -20,9 +20,13 @@ def read_text():
     contents_of_file = quotes.read()
     print contents_of_file
     quotes.close()
+    check_profanity(contents_of_file)
 
 def check_profanity(text):
     # Your code here.
-    return
-    
+    connection = urllib.urlopen("http://www.wdylike.appspot.com/?q=" + text)
+    output = connection.read()
+    print output
+    connection.close()
+
 read_text()
