@@ -11,5 +11,8 @@
 #       - If so, play music
 
 import webbrowser
+import time
+
 # Your code here.
+time.sleep(10)
 webbrowser.open("https://www.youtube.com/watch?v=vXQlYhLcQ2c")
