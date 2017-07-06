@@ -14,5 +14,11 @@ import webbrowser
 import time
 
 # Your code here.
-time.sleep(10)
-webbrowser.open("https://www.youtube.com/watch?v=vXQlYhLcQ2c")
+breaks = 3
+count = 0
+
+print "This program started on " + time.ctime()
+while count < breaks:
+    time.sleep(10)
+    webbrowser.open("https://www.youtube.com/watch?v=vXQlYhLcQ2c")
+    count += 1
