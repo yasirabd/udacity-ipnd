@@ -1,0 +1,122 @@
+/** {
+  outline: 1px solid red !important;
+}*/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  font-family: "Lucida Fax", sans-serif;;
+  margin: 0;
+  width: 70%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  margin: 20px;
+  color: white;
+}
+
+p {
+  font-size: 14px;
+}
+
+span {
+  font-size: 14px;
+}
+
+li {
+  color: white;
+}
+
+a {
+  color: white;
+}
+.TOC {
+  background: black;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.title {
+  background: radial-gradient(red 1%, black 45%);
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.wrap-content {
+  background: black;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.content {
+  background: #C0C0C0;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 4px;
+  text-align: justify;
+}
+
+.content-title {
+  text-align: center;
+  font-size: 18px;
+  margin: 10px;
+  text-shadow: 2px 2px #FF0000;
+}
+
+.content-description {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.potrait {
+  height: auto;
+  max-width: 200px;
+}
+
+.description {
+  max-width: 705px;
+  margin-left: 10px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    width: 75px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}

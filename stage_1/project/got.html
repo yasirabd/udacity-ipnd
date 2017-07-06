@@ -1,0 +1,231 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <title>Game of Thrones Wiki</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="got-style.css">
+  <script>
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("myBtn").style.display = "block";
+      } else {
+          document.getElementById("myBtn").style.display = "none";
+      }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+      document.body.scrollTop = 0; // For Chrome, Safari and Opera
+      document.documentElement.scrollTop = 0; // For IE and Firefox
+  }
+  </script>
+</head>
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">TOP</button>
+  <div class="title">
+    <h1>Game of Thrones</h1>
+  </div>
+  <div class="TOC">
+    <h1>Table of Contents</h1>
+    <ol>
+      <li><a href="#whatsgot">What is Game of Thrones?</a>
+      </li>
+      <li><a href="#characters">Characters</a>
+        <ul>
+          <li><a href="#starks">Starks</a></li>
+          <li><a href="#lannisters">Lannisters</a></li>
+          <li><a href="#targaryens">Targaryens</a></li>
+        </ul>
+      </li>
+      <li><a href="#great_houses">Great Houses</a>
+        <ul>
+          <li><a href="#house_stark">House Stark</a></li>
+          <li><a href="#house_lannister">House Lannister</a></li>
+          <li><a href="#house_targaryen">House Targaryen</a></li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+  <div class="wrap-content">
+    <h2 id="whatsgot">What is Game of Thrones?</h2>
+    <div class="content">
+      <div class="content-title">
+        Game of Thrones
+      </div>
+      <div class="content-description">
+        <p>
+          <b>Game of Thrones</b> is an American fantasy drama television series
+          created by David Benioff and D. B. Weiss. It is an adaptation
+          of <em>A Song of Ice and Fire</em>, George R. R. Martin's series of
+          fantasy novels, the first of which is <em>A Game of Thrones</em>.
+          It is filmed at Titanic Studios in Belfast, on location
+          in the United Kingdom, and in Canada, Croatia, Iceland, Malta,
+          Morocco, Spain, and the United States.
+        </p>
+      </div>
+    </div>
+
+    <h2 id="characters">Characters</h2>
+    <div class="content">
+      <div id="starks" class="content-title">
+        Starks
+      </div>
+      <div class="content-description">
+        <div class="potrait">
+          <img src="images/john_snow.jpg" alt="john_snow">
+        </div>
+        <div class="description">
+          <span>
+            King <b>Jon Snow</b> is the son of Lady Lyanna Stark and Rhaegar Targaryen,
+            the Prince of Dragonstone. From infancy, Jon is presented as the bastard son
+            of Lord Eddard Stark, Lyanna's brother, and raised by Eddard alongside his
+            lawful children at Winterfell but his true parentage is kept secret from
+            everyone, including Jon himself. In order to escape his bastard status,
+            Jon joins the Night's Watch and is eventually chosen as Lord Commander.
+            However, his decision to allow thousands of Free Folk safe passage through
+            the Wall alienates many of his black brothers, culminating in a mutiny
+            where Jon is killed but later revived by Melisandre. Freed from his
+            Night's Watch vows, Jon executes the mutineers and joins his cousin,
+            Sansa Stark, in building an army to retake Winterfell from House Bolton.
+            After securing help from a few other Northern Houses and the Vale of Arryn,
+            they successfully retake the castle from Ramsay Bolton, restoring House Stark's
+            dominion over the North with Jon being declared the new King in the North
+            by the Northern Lords.
+          </span>
+        </div>
+      </div>
+      <div class="content-description">
+        <div class="potrait">
+          <img src="images/sansa_stark.jpg" alt="sansa_stark">
+        </div>
+        <div class="description">
+          <span>
+            Princess <b>Sansa Stark</b> is the eldest daughter of Lord Eddard Stark
+            of Winterfell and his wife Lady Catelyn, sister of Robb, Arya, Bran and
+            Rickon Stark, and "half-sister" of Jon Snow. She initially starts off
+            as a soppy, slightly petulant girl with a very naive view of the world,
+            but as time goes on and she and her family suffer one cruelty and betrayal
+            after another, she becomes a more hardened and learned individual.
+          </span>
+        </div>
+      </div>
+      <div class="content-description">
+        <div class="potrait">
+          <img src="images/arya_stark.jpg" alt="arya_stark">
+        </div>
+        <div class="description">
+          <span>
+            Princess <b>Arya Stark</b> is the third child and second daughter of
+            Lord Eddard Stark and his wife, Lady Catelyn Stark. After narrowly
+            escaping the persecution of House Stark at the hands of House Lannister,
+            Arya is trained as a Faceless Man at the House of Black and White in Braavos,
+            and uses her new skills to bring those who have wronged her family to justice.
+          </span>
+        </div>
+      </div>
+      <div id="lannisters" class="content-title">
+        Lannisters
+      </div>
+      <div class="content-description">
+        <div class="potrait">
+          <img src="images/cersei_lannister.jpg" alt="cersei_lannister">
+        </div>
+        <div class="description">
+          <span>
+            Queen <b>Cersei I Lannister</b> is the widow of King Robert Baratheon and Queen of the Seven Kingdoms. She is the daughter of Lord Tywin Lannister, twin sister of Jaime Lannister and elder sister of Tyrion Lannister. She has an incestuous relationship with Jaime, who is secretly the father of her three children, Joffrey, Myrcella and Tommen.
+          </span>
+        </div>
+      </div>
+      <div class="content-description">
+        <div class="potrait">
+          <img src="images/jaime_lannister.jpg" alt="jaime_lannister">
+        </div>
+        <div class="description">
+          <span>
+            Ser <b>Jaime Lannister</b> is the eldest son of Tywin, younger twin brother of Cersei, and older brother of Tyrion Lannister. He is involved in an incestuous relationship with Cersei, and unknown to most, the biological father of her three children, Joffrey, Myrcella, and Tommen.
+          </span>
+        </div>
+      </div>
+      <div class="content-description">
+        <div class="potrait">
+          <img src="images/tyrion_lannister.jpg" alt="tyrion_lannister">
+        </div>
+        <div class="description">
+          <span>
+            <b>Tyrion Lannister</b> is the youngest child of Lord Tywin Lannister and younger brother of Cersei and Jaime Lannister. A dwarf, he uses his wit and intellect to overcome the prejudice he faces.
+          </span>
+        </div>
+      </div>
+      <div id="targaryens" class="content-title">
+        Targaryens
+      </div>
+      <div class="content-description">
+        <div class="potrait">
+          <img src="images/daenerys_targaryen.png" alt="daenerys_targaryen">
+        </div>
+        <div class="description">
+          <span>
+            Queen <b>Daenerys I Targaryen</b>, also known as Dany and Daenerys Stormborn, is the younger sister of Rhaegar Targaryen and Viserys Targaryen, the paternal aunt of Jon Snow, and the youngest child of King Aerys II Targaryen and Queen Rhaella Targaryen, who were both ousted from the Iron Throne during Robert Baratheon's rebellion.
+          </span>
+        </div>
+      </div>
+      <div class="content-description">
+        <div class="potrait">
+          <img src="images/rhaegar.jpg" alt="rhaegar">
+        </div>
+        <div class="description">
+          <span>
+            Prince <b>Rhaegar Targaryen</b> was the eldest son and heir to King Aerys II Targaryen, holding the title of Prince of Dragonstone. He was the older brother of Viserys and Daenerys Targaryen and husband of Elia Martell, with whom he had two children: Rhaenys and Aegon Targaryen. Secretly, however, he also had a son with Lyanna Stark: Jon Snow, who was raised by Lyanna's brother Eddard Stark as his bastard son to protect the child from those that sought the destruction of House Targaryen after Robert's Rebellion.[1] Rhaegar was said to have ignited the rebellion after abducting Lyanna Stark. Her betrothed, the future King Robert Baratheon, slew Rhaegar at the climactic Battle of the Trident.
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <h2 id="great_houses">Great Houses</h2>
+    <div class="content">
+      <div id="house_stark" class="content-title">
+        House Stark
+      </div>
+      <div class="content-description">
+        <div class="potrait">
+          <img src="images/stark.png" alt="stark">
+        </div>
+        <div class="description">
+          <span>
+            <b>House Stark</b> of Winterfell is a Great House of Westeros, ruling over the vast region known as the North and the Vale as Kings in the North from their seat in Winterfell, recently retaken by the Starks from House Bolton. It is by far one of the oldest lines of Westerosi nobility, claiming a line of descent stretching back over eight thousand years. The head of the house is the Lord of Winterfell. Before the Targaryen conquest, the leaders of House Stark ruled over the region as the Kings in the North. Jon Snow is the current King in the North and the Vale, partially due to the allegiance of Petyr Baelish, the Lord Regent of the Vale, to House Stark.
+          </span>
+        </div>
+      </div>
+      <div id="house_lannister" class="content-title">
+        House Lannister
+      </div>
+      <div class="content-description">
+        <div class="potrait">
+          <img src="images/lannister.png" alt="lannister">
+        </div>
+        <div class="description">
+          <span>
+            <b>House Lannister</b> of Casterly Rock is one of the Great Houses of Westeros, one of its richest and most powerful families and oldest dynasties. It is also the current royal house of the Seven Kingdoms following the extinction of House Baratheon of King's Landing, which had been their puppet house anyway.
+          </span>
+        </div>
+      </div>
+      <div id="house_targaryen" class="content-title">
+        House Targaryen
+      </div>
+      <div class="content-description">
+        <div class="potrait">
+          <img src="images/targaryen.png" alt="targaryen">
+        </div>
+        <div class="description">
+          <span>
+            <b>House Targaryen</b> is a former Great House of Westeros and was the ruling royal House of the Seven Kingdoms for three centuries since it conquered and unified the realm, before it was deposed during Robert's Rebellion and House Baratheon replaced it as the new royal House. The few surviving Targaryens fled into exile to the Free Cities of Essos across the Narrow Sea. Currently based on Dragonstone off of the eastern coast of Westeros, House Targaryen seeks to retake the Seven Kingdoms from House Lannister, who formally replaced House Baratheon as the royal House following the destruction of the Great Sept of Baelor.
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
