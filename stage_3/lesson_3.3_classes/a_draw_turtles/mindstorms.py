@@ -16,6 +16,7 @@ window.bgcolor("white")
 brow = turtle.Turtle()
 brow.shape("turtle")
 brow.speed(20)
+brow.ht()
 
 def draw_square(length, color):
     brow.color(color)
@@ -77,7 +78,7 @@ def draw_flower():
 
     pen1.ht()
     pen1.up(); pen2.up(); pen3.up()
-    
+
     pen3.home(); pen3.goto(0, -100)
     pen3.down(); pen3.goto(0, -150)
     pen3.right(10); pen3.forward(70)
@@ -88,9 +89,46 @@ def draw_flower():
     pen3.right(80)
 
     window.exitonclick()
+
+def draw_initial():
+    me = turtle.Turtle()
+    me.shape("turtle")
+    me.pensize(10)
+
+    me.up()
+    me.color("red")
+    me.goto(-100,100)
+    me.down()
+    me.goto(-50,50)
+    me.goto(0,100)
+    me.goto(-50,50)
+    me.goto(-50,0)
+
+    me.up()
+    me.color("brown")
+    me.goto(0,0)
+    me.down()
+    me.goto(50,100)
+    me.goto(100,0)
+    me.up()
+    me.goto(50,40)
+    me.down()
+    me.goto(78,40)
+    me.goto(23,40)
+    me.ht()
+
+    me.up()
+    me.pensize(5)
+    me.color("black")
+    me.goto(0,-100)
+    me.down()
+    me.circle(150)
+    window.exitonclick()
+    
 # draw_square(100, "red")
 # draw_circle(100, "green")
 # draw_triangle((150,50), (-50, -150), "blue")
 # draw_art()
-draw_flower()
+# draw_flower()
+draw_initial()
 # window.exitonclick()
