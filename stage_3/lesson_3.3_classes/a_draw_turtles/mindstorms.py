@@ -10,3 +10,25 @@
 import turtle
 
 # Your code here.
+
+def draw_square():
+    window = turtle.Screen()
+    window.bgcolor("yellow")
+
+    brow = turtle.Turtle()
+    brow.shape("turtle")
+    brow.color("red")
+    brow.speed(2)
+
+    brow.forward(100)
+    brow.right(90)
+    brow.forward(100)
+    brow.right(90)
+    brow.forward(100)
+    brow.right(90)
+    brow.forward(100)
+    brow.right(90)
+
+    window.exitonclick()
+
+draw_square()
