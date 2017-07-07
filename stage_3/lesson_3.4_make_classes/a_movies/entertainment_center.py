@@ -45,8 +45,8 @@ hobbit_auj = media.Movie("The Hobbit: An Unexpected Journey",
 
 hobbit_tbotfa = media.Movie("The Hobbit: The Battle of the Five Armies",
                             "After Bard kille the Dragon Smaug, Thorin refuses to share the treasures. Orc, Wargs, and Bats are the enemies that want to get all the treasures over Thorin.",
-                            "https://upload.wikimedia.org/wikipedia/en/b/b3/The_Hobbit-_An_Unexpected_Journey.jpeg",
+                            "https://upload.wikimedia.org/wikipedia/en/0/0e/The_Hobbit_-_The_Battle_of_the_Five_Armies.jpg",
                             "https://www.youtube.com/watch?v=iVAgTiBrrDA")
 
-# movies = [toy_story, avatar]
-# fresh_tomatoes.open_movies_page(movies)
+movies = [toy_story, avatar, game_of_thrones, hobbit_dos, hobbit_auj, hobbit_tbotfa]
+fresh_tomatoes.open_movies_page(movies)
