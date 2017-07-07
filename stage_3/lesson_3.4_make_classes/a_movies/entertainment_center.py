@@ -24,5 +24,6 @@ avatar = media.Movie("Avatar",
                     "https://www.youtube.com/watch?v=5PSNL1qE6VY")
 
 print avatar.storyline
+avatar.show_trailer()
 # movies = [toy_story, avatar]
 # fresh_tomatoes.open_movies_page(movies)
