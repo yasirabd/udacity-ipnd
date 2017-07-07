@@ -49,4 +49,5 @@ hobbit_tbotfa = media.Movie("The Hobbit: The Battle of the Five Armies",
                             "https://www.youtube.com/watch?v=iVAgTiBrrDA")
 
 movies = [toy_story, avatar, game_of_thrones, hobbit_dos, hobbit_auj, hobbit_tbotfa]
-fresh_tomatoes.open_movies_page(movies)
+# fresh_tomatoes.open_movies_page(movies)
+print media.Movie.valid_ratings
