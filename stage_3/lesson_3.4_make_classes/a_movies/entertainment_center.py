@@ -31,7 +31,22 @@ game_of_thrones = media.Movie("Game of Thrones Season 7",
                             "https://upload.wikimedia.org/wikipedia/en/0/04/Game_of_Thrones_Season_7.jpg",
                             "https://www.youtube.com/watch?v=giYeaKsXnsI")
 
-game_of_thrones.show_trailer()
+# game_of_thrones.show_trailer()
+
+hobbit_dos = media.Movie("The Hobbit: The Desolation of Smaug",
+                            "Thorin Oakenshield and his company facing the Dragon Smaug.",
+                            "https://upload.wikimedia.org/wikipedia/en/4/4f/The_Hobbit_-_The_Desolation_of_Smaug_theatrical_poster.jpg",
+                            "https://www.youtube.com/watch?v=OPVWy1tFXuc")
+
+hobbit_auj = media.Movie("The Hobbit: An Unexpected Journey",
+                            "Bilbo Baggins start his journey to travel around the world.",
+                            "https://upload.wikimedia.org/wikipedia/en/b/b3/The_Hobbit-_An_Unexpected_Journey.jpeg",
+                            "https://www.youtube.com/watch?v=SDnYMbYB-nU")
+
+hobbit_tbotfa = media.Movie("The Hobbit: The Battle of the Five Armies",
+                            "After Bard kille the Dragon Smaug, Thorin refuses to share the treasures. Orc, Wargs, and Bats are the enemies that want to get all the treasures over Thorin.",
+                            "https://upload.wikimedia.org/wikipedia/en/b/b3/The_Hobbit-_An_Unexpected_Journey.jpeg",
+                            "https://www.youtube.com/watch?v=iVAgTiBrrDA")
 
 # movies = [toy_story, avatar]
 # fresh_tomatoes.open_movies_page(movies)
