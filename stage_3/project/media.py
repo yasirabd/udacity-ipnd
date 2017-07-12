@@ -36,6 +36,6 @@ class Movie(object):
         None
         '''
         Returns:
-        Open browser that contains url youtube video and play it.
+        Open browser that contains url youtube video and plays it.
         """
         webbrowser.open(self.trailer_youtube_url)
